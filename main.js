@@ -6,7 +6,3 @@ import "./style.css";
 document
   .querySelector("#app")
   .insertAdjacentHTML("beforeend", header() + main());
-
-for (let i = 1; i <= 8; i++) {
-  document.querySelector("#app").insertAdjacentHTML("beforeend", shoe(i));
-}

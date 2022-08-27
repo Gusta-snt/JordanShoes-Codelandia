@@ -25,19 +25,12 @@ main #home::before {
 }
 
 main #home h1 {
-  width: 400px;
-  height: 39px;
-
-  
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
 }
 
 main #home p {
-  width: 460px;
-  height: 70px;
-
   font-weight: 600;
   font-size: 18px;
   line-height: 196.19%; 
@@ -47,4 +40,40 @@ main #home h1, main #home p {
   margin-left: 100px;
   font-family: 'Montserrat';
   color: #F9F9F9;
+}
+
+main #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main #content h2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 196.19%;
+
+  color: #181818;
+  margin-top: 58px;
+}
+
+main #content p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 196.19%;
+
+  color: #474747;
+}
+
+main #shoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 59px 100px 100px 100px;
+  column-gap: 13px;
+  row-gap: 39px;
 }
