@@ -2,9 +2,9 @@ import "./style.css";
 
 function shoe(productNumber) {
   return /*html*/ `
-    <article>
+    <a href="#">
       <img src="Product${productNumber}.png" alt="Jordan Shoe"/>
-    </article>
+    </a>
   `;
 }
 
