@@ -10,7 +10,7 @@ header {
     height: 60px;
 }
 
-p {
+#top p {
     color: #F9F9F9;
     margin: 0 auto;
     font-style: normal;
@@ -25,7 +25,7 @@ p {
     height: 60px;
 }
 
-h1 {
+#bottom p {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
