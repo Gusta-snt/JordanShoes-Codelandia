@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+:root {
+    --white: #F9F9F9;
+    --gray: #474747;
+    --white-200: #EBE9EA;
+    --black-light: #181818;
+    font-size: 62.5%;
+}
